@@ -20,7 +20,7 @@ $r=mysql_fetch_array($login);
 // Apabila username dan password ditemukan
 if ($ketemu > 0){
   session_start();
-  //include "timeout.php";
+  include "timeout.php";
 
   $_SESSION['namauser']     = $r['username'];
   $_SESSION['namalengkap']  = $r['nama_lengkap'];
@@ -29,7 +29,7 @@ if ($ketemu > 0){
   
   // session timeout
   $_SESSION['login'] = 1;
-  //timer();
+  timer();
 
 	$sid_lama = session_id();
 	
