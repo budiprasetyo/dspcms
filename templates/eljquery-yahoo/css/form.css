@@ -1,0 +1,70 @@
+#form{
+	width: 500px;
+	margin: 80px 50px auto;
+	padding: 20px;
+	border: 2px solid #636363;
+	
+	/* Rounded corners */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	/* Background gradient */
+	background: -moz-linear-gradient(19% 75% 90deg,#808080, #e0e0e0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e0e0e0), to(#808080));
+	
+	/* Shadow behind box */
+	-moz-box-shadow: 0px 50px 200px #707070;
+	-webkit-box-shadow: 0px 50px 200px #707070;
+}
+#form legend{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#form input[type=checkbox]{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	padding: 4px 2px;
+	border: solid 1px #a6be79;
+	width: 20px;
+	margin: 2px 20px 20px 10px;
+}
+#form label{
+	display: block;
+	margin: 0 40px auto;
+	font-weight: bold;
+	text-align: right;
+	width: 120px;
+	float: left;
+}
+#form input[type=text]{
+	float: left;
+	font-size: 12px;
+	background: #EEFF86;
+	color: #666666;
+	padding: 4px 2px;
+	border: solid 1px #a6be79;
+	width: 200px;
+	margin: 2px 0 30px 10px;
+}
+#form input[type=text]:hover{
+	background: #FFFFCC;
+}
+#form select{
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 210px;
+	height: 25px;
+	margin: 2px 0 20px 10px;
+	padding-left: 7px;
+	background: #888888;
+}
+#form input[type=submit]{
+	margin: 10px 200px auto;
+	font-size: 12px;
+	font-weight: bold;
+	width: 70px;
+}

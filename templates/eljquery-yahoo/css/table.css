@@ -1,0 +1,38 @@
+#table{
+	width: 660px;
+	table-layout: fixed;
+	overflow: hidden;
+	font-family: verdana,arial,sans-serif;
+	border-collapse: collapse;
+	font-size:11px;
+	word-wrap: break-word;
+	color:#333333;
+	border-width: 1px;
+	border-color: #818181;
+}
+
+#table th {
+	background-color:#6787D4;
+	border-width: 1px;
+	text-align:center;
+	padding: 8px;
+	border-color: #707070;
+	height: 30px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#table tr {
+	height: 50px;
+	border-style: solid;
+	border-color: #808080;
+	font-size: 10px;
+}
+#table tr:hover{
+	background: #EEFF86;
+}
+#table td{
+	padding: 3px;
+}
+#table a:hover{
+	font-style: italic;
+}
